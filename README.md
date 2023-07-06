@@ -37,3 +37,9 @@ You can preview the production build with `npm run preview`.
 
 ## Hosting 
 For sites and content that do not require any data to be stored or hosted, I recommend using the Clouflare Pages adapter [Cloudflare Pages](https://developers.cloudflare.com/pages), it gets a site up and in public with a few commands and costs nothing or practically nothing. It is also fully possible to use The static site adapter along with AWS S3 to host a compiled site by putting the `/build` folder contents into a bucket set to host a static site. This is also only fractions of a penny, but requires a bit of comfort with AWS. Vercel and Netlify also have pre-built adapters that are probably similarly simple, but I have no personal experience with them. If a database and server is required, a node or cloudflare workers adapter might be needed, but at that point, your appitite for technical complexity has exceeded this simple project. The adapter settings are fully stock SvelteKit, and this just gets you a quick leg up in styling. The rest is pure [Svelte](https://learn.svelte.dev/tutorial/welcome-to-svelte), which is super easy (relative to any similar web development), [and is well documented elsewhere](https://kit.svelte.dev/docs/introduction). Svelte is just a simple way to do web client front ends, and SvelteKit is the addition of backend server support for similar simplicity in the serving, and fetching of data going to the front end. In React terms, Svelte is React, and SvelteKit is Next.js 
+
+## Thanks and shoutouts
+Great thanks to [Fergus Bently](https://github.com/fergcb) and his projects:
+
+* Github:  [https://github.com/5e-bits](https://github.com/5e-bits)
+* [The 5e API](https://www.dnd5eapi.co/docs/#overview)
