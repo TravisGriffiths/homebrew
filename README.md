@@ -5,7 +5,7 @@ Svelte Homebrew, a pre-styled Sveltekit project for Campaign and RPG content cre
 ## Creating a project
 
 This is a Sveltekit project for making campaign, or worldbuilding sites styled along the lines of 
-the [NaturalCrit Homebrew markdown site](https://homebrewery.naturalcrit.com/). This project would not be possible without the work he has done and builds on much of the time and effort he has done. The fonts are from [Jonathon F's Solbera DnD fonts repository](https://github.com/jonathonf/solbera-dnd-fonts)
+the [NaturalCrit Homebrew markdown site](https://homebrewery.naturalcrit.com/). This project would not be possible without the work they have done and builds on much of the time and effort they put in. If your needs are only for a well presented informational site for a homebrew rule or setting for your players I cannot recommend the [Homebrewery](https://homebrewery.naturalcrit.com/) enough. That is a tool for creating and hosting well presented data in a 5e style. This is an extension of that idea out to creating something larger and more interactive for more technical content creators. 
 
 ---
 
@@ -41,9 +41,19 @@ For sites and content that do not require any data to be stored or hosted, I rec
 # 5e integration
 While I trend strongly towards very rules light systems like [EZd6 by DM Scotty](https://www.ezd6.com/) and [Index Card RPG by Runehammer](https://hankerinferinale.wixsite.com/icrpg), the amount of resources, playerbase and support for 5e cannot be beat. For that reason, the data for 5e is bundled as JSON for your use in the `/lib/data` folder, and the 5e API is ready to go for hooks in order to allow 5e creators to quickly create and publish content for this system. 
 
-## Thanks and shoutouts
-Great thanks to [Fergus Bently](https://github.com/fergcb) and his projects:
+## Thanks and Shout-Outs
+Great thanks to:
+
+[Natural Crit](https://www.naturalcrit.com/)
+
+[Fergus Bently](https://github.com/fergcb) and his projects:
 
 * Github:  [https://github.com/5e-bits](https://github.com/5e-bits)
 * [The 5e API](https://www.dnd5eapi.co/docs/#overview)
 * [The 5e Database](https://github.com/5e-bits/5e-database)
+
+The fonts are from [Jonathon F's Solbera DnD fonts repository](https://github.com/jonathonf/solbera-dnd-fonts)
+
+## Wish List
+
+* World Anvil API integration

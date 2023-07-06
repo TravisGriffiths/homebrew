@@ -1,5 +1,30 @@
-<script>
+<script lang="ts">
 	import Note from "$lib/components/Note.svelte";
+	import Table from "$lib/components/Table.svelte";
+
+	const exampleTableHeader: Record<string, string> = {
+		language: 'Language',
+		speakers: 'Common Speakers'
+	}
+
+	const exampleTableData: Array<Record<string, string>> = [
+		{
+			language: 'Draconic',
+			speakers: 'Dragons, Kobolds and scholars'
+		},
+		{
+			language: 'Abbysal',
+			speakers: 'Deamons and cultists'
+		},
+		{ 
+			language: 'Elvish', 
+			speakers: 'elves'
+		},
+		{
+			language: 'Ignan',
+			speakers: 'Elementals, Salamanders and Effrit'
+		}
+	]
 </script>
 
 <article>
@@ -24,6 +49,17 @@
 	<Note>
 		This is a note for highlighting information
 	</Note>
+
+	<!-- Just for some space-->
+	
+	<div class="my-12" />
+
+
+	<Table
+		header={exampleTableHeader}
+		tableData={exampleTableData} 
+	/>
+
 
 
 </article>
