@@ -1,3 +1,6 @@
 {
-	"/": []
+	"/": [],
+	"/5eAPI": [
+		"src/routes/5eAPI/+page.server.ts"
+	]
 }

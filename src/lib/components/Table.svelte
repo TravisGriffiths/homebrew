@@ -29,7 +29,7 @@
       {#each tableData as row}
          <tr>
             {#each Object.keys(row) as cell} 
-               <td>{row[cell]}</td>
+               <td class="p-1.5">{row[cell]}</td>
             {/each}
          </tr>
       {/each}
@@ -40,4 +40,5 @@
    tr:nth-child(even) {
       @apply bg-tertiary-500;
    }
+
 </style>
