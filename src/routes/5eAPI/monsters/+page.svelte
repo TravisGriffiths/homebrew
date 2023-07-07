@@ -1,13 +1,16 @@
 <script lang="ts">
    import Table from "$lib/components/Table.svelte";
    import { getAllMonsters } from "$lib/api/5e/monsters";
+   import { onMount } from "svelte";
 
    const monsterListHeader = {
       index: "Index",
       name: "Name",
       url: "Link"
    }
-   let monsterFetch = getAllMonsters()
+   // let monsterFetch: Promise<any>;
+   // onMount(() => monsterFetch = getAllMonsters())
+  
 
 </script>
 
@@ -19,7 +22,7 @@
    This is a interactive list of monsters from The 5e API mostly as a jump off point for how you could integrate this into your own creations
 </section>
 
-{#await monsterFetch}
+{#await getAllMonsters()}
    <h2>Loading...</h2>
 {:then monsterList } 
    <h4>Fetched {monsterList.count} monsters</h4>
