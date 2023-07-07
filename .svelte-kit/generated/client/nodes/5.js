@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/5eAPI/spells/+page.svelte";

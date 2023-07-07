@@ -13,26 +13,23 @@
 	import { AppShell } from '@skeletonlabs/skeleton';
 	// Makes heavy use of slots: https://svelte.dev/tutorial/slots
 
+	import SideNav from '$lib/components/SideNav.svelte';
+
 </script>
 
 
 <AppShell>
 	<!-- <svelte:fragment slot="header">Header</svelte:fragment> -->
 	<svelte:fragment slot="sidebarLeft">
-		<h1>Resources</h1>
-		<ul>
-			<li>
-				<a href="/5eAPI">
-					The Excellent 5e API
-				</a>
-			</li>
-		</ul>
-
+		<SideNav />
 	</svelte:fragment>
 	<!-- <svelte:fragment slot="sidebarRight">Sidebar Right</svelte:fragment> -->
 	<!-- <svelte:fragment slot="pageHeader">Page Header</svelte:fragment> -->
 	<!-- Router Slot -->
-	<slot />
+	<div class="p-10">
+		<slot />
+	</div>
+	
 	<!-- ---- / ---- -->
 	<!-- <svelte:fragment slot="pageFooter">Page Footer</svelte:fragment> -->
 	<!-- <svelte:fragment slot="footer">Footer</svelte:fragment> -->

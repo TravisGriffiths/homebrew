@@ -5,8 +5,16 @@
    free to use and allows you to access nearly all the data from the open souce 5e 
    ruleset quickly and easily. Here are some example pages using the API to get you started.
 
-   <h4>Monsters</h4>
+   <h4>
+      <a href="/5eAPI/monsters">
+         Monsters
+      </a>
+   </h4>
 
-   <h4>Spells</h4>
+   <h4>
+      <a href="/5eAPI/spells">
+         Spells
+      </a>
+   </h4>
 
 </article>
