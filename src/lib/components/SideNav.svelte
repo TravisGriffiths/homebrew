@@ -3,16 +3,16 @@
    let currentTile: number = 0;
 </script>
 
-<AppRail>
+<AppRail class="background w-fit">
 
    <AppRailAnchor href="/" slot="lead">
       <h1>Resources</h1>
    </AppRailAnchor>
 
-   <AppRailTile bind:group={currentTile} name="5eAPI" value={0} >
+   <h3>
       <a href="/5eAPI">
          The Excellent 5e API
       </a>
-   </AppRailTile>
+   </h3>
    
 </AppRail>
