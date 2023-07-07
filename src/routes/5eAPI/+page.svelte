@@ -1,25 +1,12 @@
-<script lang="ts">
-   import Table from "$lib/components/Table.svelte";
-   import { getAllMonsters } from "$lib/api/5e/monsters";
+<h1>5e API</h1>
 
-   const monsterListHeader = {
-      index: "Index",
-      name: "Name",
-      url: "Link"
-   }
-   let monsterFetch = getAllMonsters()
+<article>
+   Created by <a href="https://github.com/fergcb">Fergus Bently</a> the 5e API is 
+   free to use and allows you to access nearly all the data from the open souce 5e 
+   ruleset quickly and easily. Here are some example pages using the API to get you started.
 
-</script>
+   <h4>Monsters</h4>
 
-{#await monsterFetch}
-   <h2>Loading...</h2>
-{:then monsterList } 
-   <h4>Fetched {monsterList.count} monsters</h4>
-   <Table
-      tableData={monsterList.results}
-      header={monsterListHeader}
-   />
-{:catch error}
-   <h2>An Error Occured Fetching the Monster List</h2>
+   <h4>Spells</h4>
 
-{/await}
+</article>
