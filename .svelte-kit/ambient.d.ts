@@ -61,6 +61,7 @@ declare module '$env/static/private' {
 	export const rvm_bin_path: string;
 	export const _: string;
 	export const npm_config_prefix: string;
+	export const npm_config_npm_version: string;
 	export const XDG_SESSION_CLASS: string;
 	export const DEFAULTS_PATH: string;
 	export const USERNAME: string;
@@ -181,6 +182,7 @@ declare module '$env/dynamic/private' {
 		rvm_bin_path: string;
 		_: string;
 		npm_config_prefix: string;
+		npm_config_npm_version: string;
 		XDG_SESSION_CLASS: string;
 		DEFAULTS_PATH: string;
 		USERNAME: string;
