@@ -14,6 +14,6 @@
       header={monsterListHeader}
    /> -->
 {:catch error}
-   <h2>An Error Occured Fetching the Monster List</h2>
+   <h2>An Error Occured Fetching the Spell List</h2>
 
 {/await}
