@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/5eAPI/monsters/+page.svelte";
+export { default as component } from "../../../../src/routes/5eAPI/feats/+page.svelte";
